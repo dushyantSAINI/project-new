@@ -1,0 +1,44 @@
+.configuration-screen {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .configuration-screen h2 {
+    margin-bottom: 10px;
+  }
+  
+  .configuration-screen .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    width: auto;
+  }
+  
+  .configuration-screen label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .configuration-screen select,
+  .configuration-screen input[type="checkbox"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .configuration-screen input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .configuration-screen .checkbox-label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
