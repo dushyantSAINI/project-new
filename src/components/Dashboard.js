@@ -11,7 +11,7 @@ const Dashboard = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [graphType, setGraphType] = useState('line');
-  const [alertWidgetEnabled, setAlertWidgetEnabled] = useState(true);
+  const [alertWidgetEnabled, setAlertWidgetEnabled] = useState(false);
   const [alerts, setAlerts] = useState([]);
   const [leakageAlerts, setLeakageAlerts] = useState([]);
   const [alert,setSelectedAlert] = useState([]);
