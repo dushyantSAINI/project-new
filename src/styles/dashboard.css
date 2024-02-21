@@ -65,11 +65,11 @@
   margin: 0 auto;
 }
 .alert-widget-child-1{
-  padding: 5px 0 5px 5px
+  padding: 5px 4px 5px 5px
 }
 
 .alert-widget-child-2{
-  padding: 5px 5px 5px 0
+  padding: 5px 5px 5px 4px
 }
 .alert-container{
   display: grid;
@@ -80,6 +80,15 @@
   border: 2px solid rgb(218, 212, 212);
   border-radius: 5px;
 }
+
+.text-danger{
+  color: red;
+}
+
+.no-data{
+  padding: 10px;
+}
+
 .alert-chart-container-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);

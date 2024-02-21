@@ -9,10 +9,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    console.log("hello")
-
-    // In a real scenario, you would perform authentication here
-    // For simplicity, let's just check if the username and password are non-empty
+    
     if (username.trim() === 'polaris' && password.trim() === 'System@123') {
       navigate('/dashboard');
     } else {

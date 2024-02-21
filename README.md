@@ -1,6 +1,18 @@
+# Credentials:
+
+Username: polaris
+Password: System@123
+
+# To start the application after running "npm install" run:
+
+npm run start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# You can upload the csv file in the input box provided on the dashboard screen and please enter the date and time in the desired format like:
+21-11-2023 10:01
 
 ## Available Scripts
 
@@ -13,6 +25,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm install` (required to install node-modules)
+
+installs node modules.
 
 ### `npm test`
 
