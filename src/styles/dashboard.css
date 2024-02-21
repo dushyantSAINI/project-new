@@ -1,5 +1,5 @@
 .dashboard {
-  max-width: auto;
+  width: 100%;
   margin: 10px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -30,13 +30,15 @@
   overflow: auto; /* Add overflow property to enable scrolling if content overflows */
 }
 
-.alert-widget {
-  margin-top: 20px;
-}
+
 
 .alert-widget h2 {
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+
+.d-none{
+  display: none;
 }
 
 .alert {
@@ -47,6 +49,7 @@
   border-radius: 5px;
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 
 .alert-type {
@@ -60,4 +63,31 @@
 .form-group-input {
   max-width: 400px;
   margin: 0 auto;
+}
+.alert-widget-child-1{
+  padding: 5px 0 5px 5px
+}
+
+.alert-widget-child-2{
+  padding: 5px 5px 5px 0
+}
+.alert-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  overflow: auto;
+  height: 475px;
+  border: 2px solid rgb(218, 212, 212);
+  border-radius: 5px;
+}
+.alert-chart-container-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+} 
+
+@media screen and (max-width: 390px) {
+  .alert-container {
+    grid-template-columns: repeat(1, 1fr); /* Change to one column for screens up to 390px wide (mobile view) */
+  }
 }

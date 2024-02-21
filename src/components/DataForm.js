@@ -13,11 +13,11 @@ const DataForm = ({ onSubmit }) => {
   return (
     <form className="form-container" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label className="form-label">Start Date (DD--MM-YYYY HH:mm):</label>
+        <label className="form-label">Start Date (DD--MM-YYYY HH:MM)</label>
         <input className="form-input" type="text" value={startDate} onChange={(e) => setStartDate(e.target.value)} />
       </div>
       <div className="form-group">
-        <label className="form-label">End Date (DD-MM-YYYY HH:mm):</label>
+        <label className="form-label">End Date (DD-MM-YYYY HH:MM)</label>
         <input className="form-input" type="text" value={endDate} onChange={(e) => setEndDate(e.target.value)} />
       </div>
       <button className="form-button" type="submit">Submit</button>
